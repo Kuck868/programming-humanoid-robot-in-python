@@ -25,6 +25,7 @@ class MyAgent(SparkAgent):
         action.speed["HeadYaw"] = 0.1
         return action
 
+
 if '__main__' == __name__:
     agent = MyAgent()
     agent.run()
